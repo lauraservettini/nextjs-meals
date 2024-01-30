@@ -19,7 +19,7 @@ export default function MealsPage() {
         </h1>
         <p>Choose your favorite recipe and cook it yourself. It is easy and fun!</p>
         <p className={classes.cta}>
-          <Link href="/share">Share your favorite Recipe</Link>
+          <Link href="meals/share">Share your favorite Recipe</Link>
         </p>
       </header>
       <Suspense fallback={<p className={classes.loading}> Fetching meals...</p>}>
